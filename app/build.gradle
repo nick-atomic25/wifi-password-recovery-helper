@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.example.wifirecovery'
+    compileSdk 35
+    defaultConfig { applicationId 'com.example.wifirecovery'; minSdk 26; targetSdk 28; versionCode 3; versionName '1.2' }
+}
